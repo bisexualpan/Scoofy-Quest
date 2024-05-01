@@ -1,2 +1,2 @@
-# Sqoofy Quest Project
+# Scoofy Quest Project
  
