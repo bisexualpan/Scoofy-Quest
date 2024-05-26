@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Dialogue
+public class Helper
 {
     [TextArea(1,100)]
-    public string[] sentences;
+	public string[] sentences;
 }

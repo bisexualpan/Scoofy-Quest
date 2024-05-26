@@ -12,7 +12,7 @@ public class DialogueManager : MonoBehaviour
     public Animator boxAnim;
     public Animator startAnim;
 
-    private Queue<string> sentences;
+	private Queue<string> sentences;
 
 	private void Start()
 	{
@@ -22,7 +22,7 @@ public class DialogueManager : MonoBehaviour
 	public void StartDialogue(Dialogue dialogue)
 	{
 		boxAnim.SetBool("boxOpen", true);
-		startAnim.SetBool("startOpen", false);
+		//startAnim.SetBool("startOpen", false);
 
 		sentences.Clear();
 
@@ -58,6 +58,6 @@ public class DialogueManager : MonoBehaviour
 	public void EndDialogue()
 	{
 		boxAnim.SetBool("boxOpen", false);
+		HelperTrigger.HelperCounter += 1;
 	}
-
 }
