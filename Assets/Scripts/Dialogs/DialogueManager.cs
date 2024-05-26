@@ -58,6 +58,6 @@ public class DialogueManager : MonoBehaviour
 	public void EndDialogue()
 	{
 		boxAnim.SetBool("boxOpen", false);
-		HelperTrigger.HelperCounter += 1;
+		Counter.count += 1; 
 	}
 }

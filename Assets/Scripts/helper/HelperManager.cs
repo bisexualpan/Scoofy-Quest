@@ -56,6 +56,5 @@ public class HelperManager : MonoBehaviour
 	public void EndHelping()
 	{
 		boxHelpAnim.SetBool("boxHelperOpen", false);
-		DialogueTrigger.DialogueCounter += 1;
 	}
 }
